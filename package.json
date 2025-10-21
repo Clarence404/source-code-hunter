@@ -1,7 +1,8 @@
 {
-  "devDependencies": {
-    "vitepress": "^2.0.0-alpha.12"
-  },
+  "name": "source-code-hunter",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
@@ -9,5 +10,8 @@
   },
   "dependencies": {
     "vitepress-plugin-comment-with-giscus": "^1.1.15"
+  },
+  "devDependencies": {
+    "vitepress": "^2.0.0-alpha.12"
   }
 }
